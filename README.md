@@ -1,5 +1,11 @@
 # PhysioCare Personalized Plan
 
+This project was built during the 2024 SXSW x Build Club AI Hackathon
+
+AI Agent developed: [Relevance AI Agent](https://app.relevanceai.com/notebook/f1db6c/a21b8ef54fd8-4346-bfaa-059a7d195dd8/61eee660-9789-46e8-86d0-36139faa322a)
+
+Latest Physio plans can be seen at: [PhysioCare Vercel App](https://physio-personalised-plan.vercel.app/)
+
 PhysioCare Personalized Plan is a Next.js application that generates dynamic, personalized landing pages for physiotherapy patients. It fetches user-specific data from a Supabase backend to create tailored care plans and welcome messages.
 
 ## Features
