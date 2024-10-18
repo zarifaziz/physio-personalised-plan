@@ -34,7 +34,7 @@ export function Welcome() {
       </CardHeader>
       <CardContent>
         <p className="text-lg">
-            We&apos;re excited to present your personalized physiotherapy care plan.
+            Thanks for visiting our stall the other day. As promised, here&apos;s your FREE personalized physiotherapy care plan.
         </p>
       </CardContent>
     </Card>
