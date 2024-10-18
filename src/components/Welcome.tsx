@@ -14,6 +14,7 @@ export function Welcome() {
         const fetchedName = await fetchLatestName()
         setName(fetchedName)
       } catch (err) {
+        console.error(err);
         setError('Failed to fetch name. Please try again later.')
       }
     }
@@ -33,7 +34,7 @@ export function Welcome() {
       </CardHeader>
       <CardContent>
         <p className="text-lg">
-          We're excited to present your personalized physiotherapy care plan.
+            We&apos;re excited to present your personalized physiotherapy care plan.
         </p>
       </CardContent>
     </Card>
