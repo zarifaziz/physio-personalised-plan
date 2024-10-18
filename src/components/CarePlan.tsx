@@ -14,6 +14,7 @@ export function CarePlan() {
         const fetchedPlan = await fetchLatestPhysioPlan()
         setPlan(fetchedPlan)
       } catch (err) {
+        console.error(err);
         setError('Failed to fetch care plan. Please try again later.')
       }
     }
